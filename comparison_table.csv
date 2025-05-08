@@ -1,0 +1,11 @@
+Criteria,CAE (My Model),K-means Quantization,Justification
+PSNR (Peak Signal-to-Noise Ratio),Moderate (26.09),Higher (31.97),Higher PSNR for K-means but lacks perceptual depth.
+SSIM (Structural Similarity Index),High (0.856),Higher (0.956),CAE retains spatial and structural quality better.
+Adaptivity to Complexity,Adaptive to region complexity,Uniform compression,CAE adjusts dynamically for diverse datasets.
+Visual Quality of Complex Regions,Preserves essential details,Fails in detailed areas,CAE prioritizes perceptual importance over uniformity.
+Flexibility and Scalability,Scalable across datasets,Manual tuning required,CAE scales easily to complex datasets.
+Latent Space Representation,Learns reusable features,No latent representation,CAE's latent features enable extended applications.
+Computational Efficiency,"Higher training cost, fast inference","Fast for small tasks, slow on scale",K-means struggles with computational demands on large tasks.
+Reconstruction Error,Reduces significant reconstruction errors,Uniform errors,CAE reduces perceptually critical errors effectively.
+Generalization,Reusable for various tasks,Limited to compression tasks,CAE generalizes better for broader image tasks.
+Future Extensibility,Extendable to video or GANs,Static and less adaptable,CAE architecture allows advanced multimedia applications.
