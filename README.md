@@ -1,1 +1,14 @@
-# Adaptive-Color-Quantization
+# Adaptive-Color-QuantizationImage compression is a critical challenge in digital
+ image processing, especially as the demand for storage and
+ transmission efficiency increases. Traditional color quantization
+ methods often apply a fixed strategy, leading to poor quality
+ retention in complex areas and underutilized potential in simpler
+ regions. This project addresses these limitations by introduc
+ing an adaptive color quantization method using convolutional
+ autoencoders. The aim of this project is to develop a model
+ that dynamically adjusts color depth based on regional image
+ complexity, ensuring efficient compression without compromising
+ visual fidelity. This project makes use of the CIFAR-100 dataset
+ to evaluate the proposed model’s performance using metrics such
+ as Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity
+ Index (SSIM).
